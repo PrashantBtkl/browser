@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.browser"
+    namespace = "com.prashant.browser"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.browser"
+        applicationId = "com.prashant.browser"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.play.services.instantapps)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
